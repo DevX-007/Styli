@@ -65,8 +65,6 @@ Styli uses **Vite** for development and **Tailwind CSS** (PostCSS) for styling. 
 Add screenshots and video demos of the working application here. This section can contain:
 - ![Homepage1](preview/homepage1.png)
 - ![Homepage2](preview/homepage2.png)
-- A video showcasing the navigation and responsiveness.
-- ![video](preview/Stylipreview.mp4)
 
 ---
 
