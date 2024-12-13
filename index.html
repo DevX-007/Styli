@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styli</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-purple-950 text-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-5xl cursor-pointer font-title font-extrabold hover:text-red-600">STYLI</h1>
+            <nav class="space-x-4">
+                <a href="#" class="hover:text-yellow-300 font-bold ">Home</a>
+                <a href="#" class="hover:text-yellow-300 font-bold ">About</a>
+                <a href="#" class="hover:text-yellow-300 font-bold ">Contact</a>
+                <a href="#" class="hover:text-yellow-300 font-bold">
+                    <i class="fas fa-search"></i> <!-- Search Icon -->
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gray-50 h-screen flex items-center">
+        <!-- Background Image -->
+        <div class="absolute inset-0">
+            <img src="assets/emotional-brunette-woman.jpg" alt="Fashion Model" class="object-cover w-full h-full">
+        </div>
+        <!-- Text Content -->
+        <div class="relative z-10 flex flex-col justify-center pl-16 text-black w-1/2">
+            <h2 class="text-6xl font-mono font-bold mb-4">Welcome to </h2>
+            <h1 class="text-8xl font-title font-bold  mb-4">STYLI</h1>
+            <p class="text-2xl font-serif font-extrabold">
+                "Empowering your style, one trend at a time."
+            </p>
+        </div>
+    </section>
+    
+    
+
+    <!-- Featured Articles -->
+    <section class="container mx-auto px-4 py-12">
+        <h2 class="text-3xl font-bold font-mono text-purple-900 mb-6">Featured Articles</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Article Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="assets/happy-dark.jpg" alt="" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-purple-900 mb-2">The Latest Trends in Fashion</h3>
+                    <p class="text-gray-600 mb-4">Explore the hottest styles for the season.</p>
+                    <a href="#" class="text-purple-900 hover:underline">Read More</a>
+                </div>
+            </div>
+            <!-- Repeat Article Cards -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="assets/full-length-portrait-slim-stylish-girl.jpg" alt="" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-purple-900 mb-2">Top Fashion Tips for 2024</h3>
+                    <p class="text-gray-600 mb-4">Stay ahead with these simple style tips.</p>
+                    <a href="#" class="text-purple-900 hover:underline">Read More</a>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="assets/concept-people.jpg" alt="" class="w-full h-64 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold text-purple-900 mb-2">Top Fashion Tips for 2024</h3>
+                    <p class="text-gray-600 mb-4">Stay ahead with these simple style tips.</p>
+                    <a href="#" class="text-purple-900 hover:underline">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="bg-purple-50 py-12">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-purple-900 mb-6">Categories</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <a href="#" class="block bg-white text-center py-8 rounded-lg shadow hover:bg-purple-200">
+                    <h3 class="text-xl font-bold text-purple-900">Men's Fashion</h3>
+                </a>
+                <a href="#" class="block bg-white text-center py-8 rounded-lg shadow hover:bg-purple-200">
+                    <h3 class="text-xl font-bold text-purple-900">Women's Fashion</h3>
+                </a>
+                <a href="#" class="block bg-white text-center py-8 rounded-lg shadow hover:bg-purple-200">
+                    <h3 class="text-xl font-bold text-purple-900">Accessories</h3>
+                </a>
+                <a href="#" class="block bg-white text-center py-8 rounded-lg shadow hover:bg-purple-200">
+                    <h3 class="text-xl font-bold text-purple-900">Shoes</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-950 text-white py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Styli. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
