@@ -66,10 +66,7 @@ Add screenshots and video demos of the working application here. This section ca
 - ![Homepage1](preview/homepage1.png)
 - ![Homepage2](preview/homepage2.png)
 - A video showcasing the navigation and responsiveness.
-<video width="600" controls>
-  <source src="preview/Stylipreview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+- ![video](preview/Stylipreview.mp4)
 
 ---
 
