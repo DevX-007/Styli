@@ -54,7 +54,7 @@ Styli uses **Vite** for development and **Tailwind CSS** (PostCSS) for styling. 
 
 2. Start the development server:
    ```bash
-   npm run dev
+   npm run start
    ```
 
 3. Open the project in your browser by navigating to the provided local URL.
